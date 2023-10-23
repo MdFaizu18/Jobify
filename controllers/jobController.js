@@ -1,5 +1,5 @@
 import { StatusCodes } from "http-status-codes";
-import jobModel from "../Models/JobModel.js";
+import jobModel from "../models/JobModel.js";
 import mongoose from 'mongoose';
 import day from 'dayjs';
 
