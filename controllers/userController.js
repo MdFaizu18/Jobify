@@ -2,7 +2,7 @@ import { StatusCodes } from "http-status-codes";
 import UserModel from "../models/UserModel.js";
 import cloudinary from 'cloudinary';
 import { promises as fs } from 'fs';
-import jobModel from "../Models/JobModel.js";
+import jobModel from "../models/JobModel.js";
 
 export const getCurrentUser = async (req, res) => {
     const user = await UserModel.findOne({ _id: req.user.userId });
