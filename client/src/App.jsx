@@ -26,6 +26,7 @@ import { action as profileAction } from './pages/Profile';
 import { loader as statsLoader } from './pages/Stats';
 
 // for enabling the dark theme 
+// used to change the dark theme 
 export const checkDefaultTheme = () => {
     const isDarkTheme = localStorage.getItem('darkTheme') === 'true';
     document.body.classList.toggle('dark-theme', isDarkTheme);
